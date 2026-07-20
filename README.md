@@ -1,11 +1,11 @@
 
-# 🎬 Hybrid Movie Recommendation System 🍿
+#  Hybrid Movie Recommendation System 
 
 [Live Demo](https://huggingface.co/spaces/meena1904/Movie_Recommendation_System)
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 A full-stack AI/ML web application for personalized movie recommendations:
 
@@ -15,7 +15,7 @@ A full-stack AI/ML web application for personalized movie recommendations:
 
 ---
 
-## 💡 Features
+##  Features
 
 * **Content-based Filtering**: Suggests movies similar to the selected ones using TF-IDF and metadata.
 * **Collaborative Filtering**: Uses user ratings and preferences for personalized recommendations.
@@ -26,7 +26,7 @@ A full-stack AI/ML web application for personalized movie recommendations:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Backend & ML**: Python, Pandas, NumPy, SciPy, Scikit-learn
 * **ML Models**: TF-IDF vectorizer, Cosine Similarity, Collaborative filtering (matrix factorization / KNN)
@@ -36,7 +36,7 @@ A full-stack AI/ML web application for personalized movie recommendations:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 hybrid-movie-recommender/
@@ -52,7 +52,7 @@ hybrid-movie-recommender/
 
 ---
 
-## 🖥️ How to Run Locally
+##  How to Run Locally
 
 ```bash
 # 1. Clone the repository
@@ -71,7 +71,7 @@ streamlit run app.py
 
 ---
 
-## 📌 Notes
+##  Notes
 
 * **Hybrid Approach**: Content-based handles new movies, collaborative handles user preferences.
 * **Sparse Matrix**: Predicted ratings stored as `.npz` to save memory and speed up computation.
